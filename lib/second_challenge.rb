@@ -7,7 +7,9 @@ def second_challenge
   }
 
   #code your solution here!
-
-  
-
+  all_dem_ingredients = []
+#  groceries.each do |key, values|
+  all_dem_ingredients << groceries.values
+#  end
+  all_dem_ingredients.flatten!
 end
